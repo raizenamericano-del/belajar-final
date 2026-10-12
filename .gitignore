@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+dist
+coverage
+.env
+.env.local
+.env.*.local
+*.log
+*.tsbuildinfo
+KayuUkur-Pro.zip
+.DS_Store
+.vercel
+
+# test output
+coverage/

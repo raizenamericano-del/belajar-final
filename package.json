@@ -1,0 +1,36 @@
+{
+  "name": "kayuukur-pro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Platform referensi ukuran, konversi, katalog hardware, dan belajar perkayuan.",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "seed:export": "tsx scripts/export-seed.ts",
+    "seed:supabase": "node scripts/seed-supabase.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
+    "lucide-react": "^0.468.0",
+    "next": "16.4.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^20.17.10",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.25.0",
+    "globals": "^16.5.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.56.0",
+    "vitest": "^4.1.11"
+  }
+}
